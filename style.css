@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: bold;
+  src: url("./media/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2");
+}
+
+body {
+  background-color: #040720;
+  color: #ffff;
+}
+
+h1,
+h2,
+button {
+  font-family: bold;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
